@@ -69,6 +69,8 @@ public class BookMyStayApp {
             System.out.println("Booking failed for " + r.guestName +
                     " | No rooms available");
         }
+
+        System.out.println("\nUpdated " + roomType + " Room Availability: " + inventory.get(roomType));
     }
 
     public static void main(String[] args) {
